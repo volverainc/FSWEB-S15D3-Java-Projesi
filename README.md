@@ -9,27 +9,18 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
 
 ### Hedeflerimiz:
 
-### Adventure Game
-
- * Amacımız HashMap kullanarak text tabanlı bir macera oyunu yazmak.
- * Oyunumuz aşağıdaki haritayı baz alarak oynanmaktadır.
- * ![](map1.png)
- * Oyun senaryosunda kullanıcı(user) haritanın ortasında ve ```Road``` kısmında olucak şekilde oyuna başlar.
- *  ```North``` kullanıcıyı ```Forest``` yönüne götürecek.
- *  ```South``` kullanıcıyı ```Valley``` yönüne götürecek.
- *  ```East``` kullanıcıyı ```Well House``` yönüne götürecek.
- *  ```West``` kullanıcıyı ```Hill``` yönüne götürecek.
- * Bu çalışmada 2 adet HashMap kullanmalıyız. Bir tanesi şuan ki konumu tutmak için. Bir diğeri gidilebilecek olan alanları tutmak için.
- 
- * Verinin nasıl gösterileceği ve tutulacağı aşağıdaki resimde gösterilmeye çalışılmıştır.
- * ![](map2.png)
- *  ```Location``` isimli bir sınıfımız olmalı 3 tane değişkeni olmalı. ```field```, ```description```  ve ```nextPlaces``` => HashMap olmalı ve gidilebilecek diğer alanları tutmalı.
- * Aşağıda Location sınıfı için bir örnek verilmiştir.
- * ![](map2.png)
-
- * Console kullanarak kullanıcıya bulunduğu lokasyonu tanımlamaya çalışın ve bu noktadan nerelere gidebileceğini göstermelisiniz.
- * Bir prompt ile kullancıdan gidebileceği lokasyonu almalısınız.
- * Kullanıcı ```Q``` harfina basarsa oyun durmalı bu işlem olana kadar kullanıcı oyunda istediği kadar gezebilir.
- * Aşağıdaki resimde örnek bir console cıktısı paylaşılmıştır.
- * ![](map3.png)
+### Find Count of All Words
+ * Bu projedeki amacımız aşağıdaki şekilde verilmiş olan text içerisinde her kelimenin kaç kez geçtiğini bulmak.
+ * Çözümünüzün ```time Complexity``` değeri O(n) komplesitiden daha fazla olmamalı.
+ * "When the offensive resumed, the Turks received their first victory when the Greeks encountered stiff resistance in the battles of First and Second İnönü," +
+   " due to İsmet Pasha's organization of an irregular militia into a regular army. " +
+   " The two victories led to Allied proposals to amend the Treaty of Sèvres where both Ankara and Istanbul were represented, but Greece refused." +
+   " With the conclusion of the Southern and Eastern fronts, Ankara was able to concentrate more forces on the West against the Greeks." +
+   " They also began to receive support from Soviet Union, as well as France and Italy, who sought to check British influence in the Near East.\n" +
+   " June–July 1921 saw heavy fighting in the Battle of Kütahya-Eskişehir. While it was an eventual Greek victory, the Turkish army withdrew in good order to the Sakarya river, their last line of defence." +
+   " Mustafa Kemal Pasha replaced İsmet Pasha after the defeat as commander in chief as well as his political duties." +
+   " The decision was made in the Greek military command to march on the nationalist capital of Ankara to force Mustafa Kemal to the negotiating table." +
+   " For 21 days, the Turks and Greeks fought a pitched battle at the Sakarya river, which ended in Greek withdrawal." +
+   " Almost of year of stalemate without much fighting followed, during which Greek moral and discipline faltered while Turkish strength increased." +
+   " French and Italian forces evacuated from Anatolia. The Allies offered an armistice to the Turks, which Mustafa Kemal refused.";
   
