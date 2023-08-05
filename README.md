@@ -9,6 +9,15 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
 
 ### Hedeflerimiz:
 
+### Company Needs tour help
+* Şirketimize eleman alımı yapılırken muhasebemizde bazı kullanıcıların aynı id ile kayıt edildiklerini gorduk. Bu durumu düzeltmek için senin yardımın gerekli.
+* ```Employee``` isimli bir sınıf tanımlamalısın. İçerisinde id, firstname ve lastname değerleri olmalı.
+* Elimizde bir adet  ```LinkedList``` var bütün employee ler bu listenin içerisindeler.
+* Senden isteğimiz listede tekrar eden employeeleri başka bir listeye eklemen.
+* Ayrıca tekrar etmeyen kullanıcıları da bir Map'e eklemeni istemekteyiz.
+* Günün sonunda tekrar eden verileri içeren ```LinkedList``` içerisindeki tekrar eden verileri de silmelisin.
+* Bir adet LinkedList ve HashMap kullanman çözümde zorunludur. Kalan tüm kısımları istediğiniz gibi yapabilirsiniz.
+
 ### Find Count of All Words
  * Bu projedeki amacımız aşağıdaki şekilde verilmiş olan text içerisinde her kelimenin kaç kez geçtiğini bulmak.
  * Çözümünüzün ```time Complexity``` değeri O(n) komplesitiden daha fazla olmamalı.
